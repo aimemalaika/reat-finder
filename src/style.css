@@ -1,0 +1,44 @@
+.custonsearch .input input {
+    border: 1px solid black;
+    width: 100%;
+    color: black;
+}
+.custonsearch .input{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px 0;
+}
+.custonsearch{
+    margin-top: 20px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.image.imageContainer {
+    min-height: 367px;
+    max-height: 367px;
+    height: 367px;
+    width: 100%;
+    background-size: contain !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+.content {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+
+.top{
+    top: 0;
+    height: 100%;
+}
+.bottom{
+    bottom: 0;
+}
+.content > *, .content {
+    color: white !important;
+}
+
+.card:hover > .top {background-color: #00000075;}
